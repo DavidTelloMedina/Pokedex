@@ -1,0 +1,57 @@
+.poke-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.black-header {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+.red-header {
+    height: 60px;
+    background-color: red;
+}
+
+
+.black-footer{
+    width: 100%;
+    height: -250px;
+    background-color: black;
+    padding: 150px 0 0 0 ;
+    margin: 200px 0 0 0;
+}
+.red-footer {
+    height: 300px;
+    background-color: red;
+    padding: 150px 0 0 0 ;
+    margin: 200px 0 0 0;
+}
+
+.trainer{
+    color:rgb(255, 0, 0);
+    text-decoration:wavy;
+}
+p{
+    padding-top: 20px;
+}
+.btn__search{
+    background-color:rgb(255, 0, 0);
+    color: white;
+}
+.btn__form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+.btn__sele{
+    text-align: center;
+    padding:2px 0 0 10px;
+    margin-left: 850px;
+}
+.btn__opt{
+    display: flex;
+    justify-content: center;
+}

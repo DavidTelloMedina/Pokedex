@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+/* Estilos generales */
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+  }
+select{
+    font-size: 2.0rem;
+}
+
+h1,h2{
+    color:rgb(232, 46, 25);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.home__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 100%;
+    max-width: 600px;
+}
+.btn__one{
+    border: 1px solid #e02121; 
+    padding: 10px; 
+    background-color: #e02121; 
+    color: #ffffff; 
+    text-decoration: none; 
+    }
+
+.btn__input{
+    border: 1px solid black;
+    padding: 10px;     
+}
+.btn__second {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.bg{
+    background-image: url(/public/images/PokeFondo.png);
+    background-repeat: no-repeat;
+}
+.btn__input__card{
+    border: 1px solid black;
+}
